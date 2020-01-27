@@ -11,6 +11,7 @@
   + enemies have different health and strength measurements 
   
 ## Wireframe
+![wireframe](https://github.com/Justinlf55/JavascriptProject/blob/master/images/wireframe.png?raw=true)
 
 
 ## Architecture and Technologies
