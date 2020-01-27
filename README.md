@@ -12,11 +12,14 @@
   
 ## Wireframe
 
+
 ## Architecture and Technologies
   + Javascript for game logic
   + Canvas for game play
   
 ## Implementation Timeline 
  + Day 1: Install all node packages and create an entry point.  I will try to learn the a reasonable amount about canvas,     enough to get started by the second day. 
+ + Day 2: try to get enemies and obstacles render on the board and to start writing game logic. 
+ 
   
 
