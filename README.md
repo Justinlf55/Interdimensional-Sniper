@@ -11,6 +11,7 @@
   + enemies have different health and strength measurements 
   
 ## Wireframe
+![wireframe](https://github.com/Justinlf55/JavascriptProject/blob/master/images/wireframe.png?raw=true)
 
 
 ## Architecture and Technologies
@@ -19,7 +20,9 @@
   
 ## Implementation Timeline 
  + Day 1: Install all node packages and create an entry point.  I will try to learn the a reasonable amount about canvas,     enough to get started by the second day. 
- + Day 2: try to get enemies and obstacles render on the board and to start writing game logic. 
+ + Day 2: try to get enemies and obstacles render on the board and to start writing basic game logic. 
+ + Day 3: Continue to work on the game logic, adding increased difficulty and a timer. 
+ + Day 4: Styling and deploy game. 
  
   
 
