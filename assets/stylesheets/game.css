@@ -1,4 +1,4 @@
-body {
+#game-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,3 +9,16 @@ body {
     background-image: url('https://res.cloudinary.com/justinlf55/image/upload/v1580419111/game-background_w98kes.png');
     background-size: cover;
 }
+
+#play-button {
+    border: none;
+    background: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }

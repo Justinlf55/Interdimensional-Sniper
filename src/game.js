@@ -99,7 +99,7 @@ class Game {
     HP() {
         let enemies = this.enemies.concat(this.flyingEnemies);
         enemies.forEach(enemy => {
-            if (enemy.pos[0] >= 1200) {
+            if (enemy.pos[0] >= 1150) {
                 this.health -= enemy.damage;
                 this.enemies.splice(this.enemies.indexOf(enemy), 1);
             }
@@ -108,7 +108,7 @@ class Game {
         if (this.health < 10) {
             alert('You lose');
         }else{
-            setTimeout(() => this.HP(), 3000);
+            setTimeout(() => this.HP(), 300);
         }
     }
 
@@ -116,7 +116,7 @@ class Game {
         let ctx = this.ctx;
         setInterval(() => {
             this.move(ctx) },
-            this.difficulty - 500
+            this.difficulty - 1000
         )
     }
 

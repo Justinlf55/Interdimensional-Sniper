@@ -9,6 +9,21 @@ class FlyingEnemy extends Enemy {
         this.size = [100, 100];
         this.damage = 50;
         this.up = true;
+        this.timesHit = 0;
+    }
+
+    shootEnemy(x, y) {
+        if (x > this.pos[0] - (this.size[0]/1.75) && x <= this.pos[0] + (this.size[0]/1.75)) {
+            if (y > this.pos[1] - (this.size[1]/1.75) && y <= this.pos[0] + (this.size[0]/1.75)) {
+                this.timesHit += 1;
+                if (this.timesHit === 2){
+                    if (!this.destroyed) {
+                        this.game.killedEnemies += 1;
+                    }
+                    this.destroy();
+                }
+            }
+        }
     }
 
     destroy() {
