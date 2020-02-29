@@ -1,0 +1,25 @@
+{
+  "name": "JSproject",
+  "version": "1.0.0",
+  "description": "## Background    This is an interdimension shooter game, where a player will use their mouse to take down interdimensional entities of different sizes and strengths.  The user will continue playing until their health points reach zero and they will be scored based on time.",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^4.41.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justinlf55/JavascriptProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Justinlf55/JavascriptProject/issues"
+  },
+  "homepage": "https://github.com/Justinlf55/JavascriptProject#readme"
+}

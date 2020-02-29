@@ -38,7 +38,6 @@ class Game {
                 if (enemy.destroyed) {
                     this.killedEnemies += 1;
                     this.difficulty = this.difficulty - (this.killedEnemies * 2);
-                    console.log(this.difficulty);
                     this.score += enemy.damage;
                     enemy.draw();
                     setTimeout(this.enemies.splice(this.enemies.indexOf(enemy), 1), 2000);
