@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: black;
     color: whitesmoke;
 }
@@ -66,4 +70,19 @@ h1 {
 
 #start-button:hover{
     cursor: pointer;
+}
+
+#footer {
+    position: absolute;
+    bottom: 4%;
+}
+
+#footer > a {
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
+
+#footer > a:hover {
+    color: #FF00FF;
 }
