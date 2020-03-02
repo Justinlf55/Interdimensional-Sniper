@@ -6,10 +6,12 @@
   "dependencies": {
     "webpack": "^4.41.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "run webpack"
+    "start": "webpack --watch"
   },
   "repository": {
     "type": "git",

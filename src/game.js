@@ -115,7 +115,7 @@ class Game {
         let ctx = this.ctx;
         setInterval(() => {
             this.move(ctx) },
-            this.difficulty - 1000
+            (this.difficulty - 500)
         )
     }
 

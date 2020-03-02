@@ -16,12 +16,14 @@ class Enemy {
         this.ctx.drawImage(this.img, this.pos[0], this.pos[1], this.size[0], this.size[1])
     }
 
-    shootEnemy(x, y) {
+    shootEnemy(x, y) { 
         if (x > this.pos[0] - (this.size[0]/1.75) && x <= this.pos[0] + (this.size[0]/1.75)) {
             if (y > this.pos[1] - (this.size[1]/1.75) && y <= this.pos[0] + (this.size[0]/1.75)) {
                 if (!this.destroyed) {
+                    console.log('hit')
                     this.game.killedEnemies += 1;
                 }
+                console.log('destroyed')
                 this.destroy();
             }
         }
