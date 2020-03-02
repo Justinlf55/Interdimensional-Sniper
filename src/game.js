@@ -105,9 +105,15 @@ class Game {
         })
 
         if (this.health < 10) {
-            alert('You lose');
+            document.getElementById('game-canvas').style.display = 'none';
+            const menu = document.getElementById('menu')
+            menu.style.display = 'flex';
+            let node = document.createElement("H1");                 
+            let textnode = document.createTextNode(`Your final score: ${this.score}!`);         
+            node.appendChild(textnode);
+            menu.appendChild(node);  
         }else{
-            setTimeout(() => this.HP(), 300);
+            setTimeout(() => this.HP(), 3000);
         }
     }
 

@@ -3,6 +3,10 @@ body {
     color: whitesmoke;
 }
 
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #game-div {
     display: flex;
     flex-direction: column;
@@ -11,8 +15,13 @@ body {
 }
 
 #game-canvas {
+    display: none;
     background-image: url('https://res.cloudinary.com/justinlf55/image/upload/v1580419111/game-background_w98kes.png');
     background-size: cover;
+}
+
+#game-canvas:hover {
+    cursor: url('https://res.cloudinary.com/justinlf55/image/upload/v1583124183/crosshair_ttjkwa.jpg');
 }
 
 #menu {
@@ -33,11 +42,17 @@ body {
     background: #FF00FF;
     border: whitesmoke solid 2px;
     border-radius: 2px;
-    width: 14%;
+    width: 25%;
+}
+
+#menu > h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 55px;
 }
 
 #start-button {
-    width: 75%;
+    width: 85%;
     border: whitesmoke solid 2px;
     background: #FF00FF;
     margin: 10px;
@@ -46,6 +61,7 @@ body {
 #start-button > h1 {
     border: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #start-button:hover{
