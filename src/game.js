@@ -75,9 +75,10 @@ class Game {
             }
 
             if (flyingEnemy.pos[1] < 200) {
-                flyingEnemy.pos[1] += 40;
+                let amp = Math.floor(Math.random);
+                flyingEnemy.pos[1] += amp;
             } else {
-                flyingEnemy.pos[1] -= 40;
+                flyingEnemy.pos[1] -= amp;
             }
 
         });
