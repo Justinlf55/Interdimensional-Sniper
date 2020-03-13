@@ -1,6 +1,6 @@
 class Bullet{
     constructor(x, y){
-        this.mouse = [x - 240, y - 90];
+        this.mouse = [x - 240, y];
         this.canvas = document.getElementById('game-canvas');
         this.ctx = this.canvas.getContext('2d');
         this.point = window.innerWidth;
@@ -12,7 +12,7 @@ class Bullet{
 
     bulletPath() {
         this.ctx.beginPath();
-        let point = (this.point / 2);
+        let point = (this.point / 2) - 200;
         let endx = this.mouse[0];
         let endy = this.mouse[1];
         this.ctx.moveTo(point, window.innerHeight);
