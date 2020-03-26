@@ -7,7 +7,7 @@ class BossEnemy extends Enemy {
         this.img = new Image();
         this.size = [200, 200];
         this.damage = 200;
-        this.hp = 555;
+        this.hp = 550;
     }
     
  }
