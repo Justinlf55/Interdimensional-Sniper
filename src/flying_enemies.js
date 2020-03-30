@@ -9,7 +9,6 @@ class FlyingEnemy extends Enemy {
         this.size = [100, 100];
         this.damage = 50;
         this.up = true;
-        this.timesHit = 0;
         this.hp = 100;
     }
 

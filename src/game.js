@@ -1,6 +1,7 @@
 import Enemy from './enemies';
 import Bullet from './bullet';
 import FlyingEnemy from './flying_enemies';
+import BossEnemy from './boss_enemy';
 
 class Game {
     constructor(canvas){
@@ -82,8 +83,13 @@ class Game {
             }
 
         });
-    }
 
+            if (this.score % 500 === 0) {
+                let boss = new BossEnemy(this);
+                boss.draw();
+            };
+    }
+    
     move(ctx){
         ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);
         if (this.health < 500 && this.health > 250) {
