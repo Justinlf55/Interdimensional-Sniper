@@ -41,8 +41,8 @@ class BossEnemy extends Enemy {
         this.ctx.closePath();
         this.ctx.stroke();
 
-        // this.ctx.drawImage(this.img, this.pos[0], this.pos[1] + 10, this.size[0], this.size[1]);
-        this.ctx.rect(this.pos[0], this.pos[1], 200, 200);
+        this.ctx.drawImage(this.img, this.pos[0], this.pos[1] + 10, this.size[0], this.size[1]);
+        // this.ctx.rect(this.pos[0], this.pos[1], 200, 200);
     }
     
  }
