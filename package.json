@@ -4,10 +4,10 @@
   "description": "## Background    This is an interdimension shooter game, where a player will use their mouse to take down interdimensional entities of different sizes and strengths.  The user will continue playing until their health points reach zero and they will be scored based on time.",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^4.41.6"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
